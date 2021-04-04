@@ -71,7 +71,7 @@ player2Btn.addEventListener('click', () => {
   validation()
 })
 
-//Good Code
+//Good Code -I followed bad practice should be craeted a branch to contribute a project
 
 resetBtn.addEventListener('click', reset)
 
