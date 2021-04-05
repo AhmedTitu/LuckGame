@@ -67,7 +67,7 @@ function winner(oldScore , luckyNumber){
     function fareGameP2(){
         if(player2Clicked === false){
             player2Btn.setAttribute('disabled' , 'disabled');
-            player1Clicked = true;
+            player1Clicked = player1Clicked;
         }
     }
 
