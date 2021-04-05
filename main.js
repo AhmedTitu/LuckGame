@@ -60,7 +60,7 @@ function winner(oldScore , luckyNumber){
     function fareGameP1(){
         if(player1Clicked === false){
             player1Btn.setAttribute('disabled' , 'disabled');
-            // player2Clicked = true;
+            player2Clicked = true;
             //player2Btn.removeAttribute('disabled');
         // }else if(player1Number === luckyNumber){
         //     player2Btn.setAttribute('disabled' , 'disabled');
@@ -71,7 +71,7 @@ function winner(oldScore , luckyNumber){
         if(player2Clicked === false){
             player2Btn.setAttribute('disabled' , 'disabled');
             player1Clicked = true;
-            player1Btn.removeAttribute('disabled');
+            //player1Btn.removeAttribute('disabled');
         // }else if(player2Number === luckyNumber){
         //     playerBtn.setAttribute('disabled' , 'disabled');
         }
