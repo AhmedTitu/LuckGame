@@ -61,7 +61,7 @@ function winner(oldScore , luckyNumber){
         if(player1Clicked === false){
             player1Btn.setAttribute('disabled' , 'disabled');
             // player2Clicked = true;
-            player2Btn.removeAttribute('disabled');
+//             player2Btn.removeAttribute('disabled');
         // }else if(player1Number === luckyNumber){
         //     player2Btn.setAttribute('disabled' , 'disabled');
         }
